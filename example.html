@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cover Hyeokju</title>
+</head>
+
+<style>
+    body {
+        background-color: #00264d;
+        margin: 40px;
+        justify-content: center;
+    }
+
+    footer {
+        color: white;
+    }
+
+    #head {
+        font-size: 30px;
+        font-family: 'Georgia', serif;
+    }
+
+    hr {
+        border-top: 2px solid #333;
+        margin: 10px;
+    }
+
+    .styled-button {
+        background-color: blueviolet;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+        font-weight: bold;
+    }
+
+    .white {
+        color: white;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+
+    }
+
+    li {
+        position: relative;
+        padding-left: 20px;
+
+        margin-bottom: 10px;
+
+    }
+
+    li::before {
+        content: '→';
+        position: absolute;
+        left: 0;
+        color: #007bff;
+        font-size: 18px;
+    }
+
+    #starter {
+        width: 50%;
+        float: left;
+    }
+
+    #guide {
+        width: 50%;
+        float: left;
+    }
+
+    a {
+            color: skyblue;
+            text-decoration: underline;
+        }
+</style>
+
+<body>
+    <div id="head" class="white">
+        22400011's Homepage
+    </div>
+
+    <hr>
+    <div id="main" class="white">
+        <h1>Get started with Bootstrap</h1>
+        Quickly and easily get started with Bootstrap's compiled, production-ready
+        files with this<br> barebones example featuring some basic HTML and helpful links. Download all our
+        <br>examples to get
+        started.
+        <br>
+        <button class="styled-button">Download examples</button>
+    </div>
+    <hr width="10%">
+
+    <div id="mid" class="white">
+        <div id="starter">
+            <h2>Starter projects</h2>
+            <p>Ready to go beyond the starter template? Check out these open source projects
+                that you can quickly duplicate to a new GitHub repository.</p>
+            <ul>
+                <li><a href="#">Bootstrap npm starter</a></li>
+                <li><a href="#">Bootstrap Parcel starter</a></li>
+                <li><a href="#">Bootstrap Vite starter</a></li>
+                <li><a href="#">Bootstrap Webpack starter</a></li>
+
+            </ul>
+        </div>
+
+        <div id="guide">
+            <h2>Guides</h2>
+            <p>Read more detailed instructions and documentation on using or contributing to Bootstrap.</p>
+            <ul>
+                <li><a href="#">Bootstrap quick start guide</a></li>
+                <li><a href="#">Bootstrap Webpack guide</a></li>
+                <li><a href="#">i>Bootstrap Parcel guide</a></li>
+                <li><a href="#">Bootstrap Vite guide</a></li>
+                <li><a href="#">Contributing to Bootstrap</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <hr>
+
+</body>
+<footer>
+    Created by Hayoung Kang 2025
+</footer>
+
+</html>
